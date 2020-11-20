@@ -3,9 +3,9 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Events from './components/pages/Events';
+import Contact from './components/pages/Contact';
+import Sponsors from './components/pages/Sponsors';
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/event' component={Events} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/sponsors' component={Sponsors} />
         </Switch>
       </Router>
     </>
