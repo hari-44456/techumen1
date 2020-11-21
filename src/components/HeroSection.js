@@ -14,6 +14,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          ok='same'
         >
           GET STARTED
         </Button>
@@ -22,8 +23,9 @@ function HeroSection() {
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('youtube')}
+          ok='youtube'
         >
-          WATCH TRAILER <i className='far fa-play-circle' ></i>
+          <a style={ {color: 'inherit',textDecoration:'none'}}href="https://www.youtube.com/watch?v=FeB-ymMI4Pk" target="_blank"> WATCH TRAILER </a> <i className='far fa-play-circle' ></i>
         </Button>
       </div>
     </div>

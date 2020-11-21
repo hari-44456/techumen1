@@ -23,7 +23,8 @@ export const Button = ({
   type,
   onClick,
   buttonStyle,
-  buttonSize
+  buttonSize,
+  ok
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -31,15 +32,26 @@ export const Button = ({
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
-  return (
-    <Link to='/signup' className='btn-mobile'>
-      <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
-        type={type}
-      >
-        {children}
-      </button>
-    </Link>
-  );
+  if(ok!='youtube')  
+  return(
+      <Link to='/signup' className='btn-mobile'>
+        <button
+          className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+          onClick={onClick}
+          type={type}
+        >
+          {children}
+        </button>
+      </Link>
+  )
+  else
+  return(
+  <button
+    className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+    onClick={onClick}
+    type={type}
+  >
+    {children}
+  </button>);
+ 
 };
