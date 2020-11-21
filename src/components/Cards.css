@@ -99,6 +99,13 @@ h1 {
   line-height: 24px;
 }
 
+.cards__item__text__sm {
+  color: #252e48;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;

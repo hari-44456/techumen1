@@ -10,35 +10,47 @@ function Cards() {
         <div className='cards__wrapper'> 
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/webcipher.jpg'
+              text='Empower your web identity'
+              contact='Narahari-9764010025'
+              label='WebCipher'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/code1.jpg'
+              text='Code until you crack it ! '
+              contact='Shreyas 9370719836'
+              label='CodeKombat'
+              path='/services'
+            />
+            <CardItem
+              src='images/code2.jpg'
+              text='Hritik - 9067752821'
+              contact='Hritik - 9067752821'
+              label='Retracer'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/auslander.jpg'
+              text='The Timeless Murder Mystery '
+              contact='Aditya  - 9370771637'
+              label='Auslander'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/techtalk.jpg'
+              text='Between tech career and obsession '
+              contact='Rohit - 9168220087'
+              label='Tech Talk'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/elliptas.jpg'
+              text='We Roll Personality '
+              contact='Anuja - 9422778924'
+              label='Eliptas'
               path='/sign-up'
             />
           </ul>

@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
-import Sponsors from './components/pages/Sponsors';
+import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
@@ -15,8 +15,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/event' component={Events} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/sponsors' component={Sponsors} />
+          <Route path='/signup' component={SignUp} />
         </Switch>
       </Router>
     </>
